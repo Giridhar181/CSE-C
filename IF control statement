@@ -1,16 +1,10 @@
-#Control Structures
-'''
-CS determines the flow of exection
-'''
-''' why?The statements are executed in the sequential
-various types-multiline comment
-'''
+
 #if
-a=10 #READ INPUT FROM USER
-if a<20:  #if condition is true then the statements of if block is executed
+a=10 
+if a<20:  
  print('a is <20')
  print('HI')
 
-'''OUTPUT
+OUTPUT
 a is <20
-HI'''
+HI
