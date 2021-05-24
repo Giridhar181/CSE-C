@@ -1,0 +1,14 @@
+#INPUT
+a=input(raw_input("enter the number":))
+if(a%2==1):
+   Print("a is even")
+else:
+  Print("a is odd")
+
+
+OUTPUT:
+enter the number:
+50
+a is even
+
+
