@@ -1,4 +1,4 @@
-amou=int(input())
+amou=int(input("Enter the total bill"))
 if amou>=1000:
     dis=amou*10/100
     amou=amou-dis
@@ -16,3 +16,9 @@ else:
     
 print("Discount=",dis)
 print("Final Amount=",amou)
+
+
+Output:
+Enter the total bill 4500
+Discount= 1350.0
+Final amount=  3150.0
