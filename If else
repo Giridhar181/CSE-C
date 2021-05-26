@@ -1,0 +1,18 @@
+amou=int(input())
+if amou>=1000:
+    dis=amou*10/100
+    amou=amou-dis
+elif amou>=2000:
+    dis=amou*20/100
+    amou=amou-dis
+elif amou>=3000:
+    dis=amou*30/100
+    amou=amou-dis
+elif amou>=5000:
+     dis=amou*40/100
+     amou=amou-dis
+else:
+    print("no discount")
+    
+print("Discount=",dis)
+print("Final Amount=",amou)
