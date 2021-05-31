@@ -1,0 +1,6 @@
+a=int(input("Enter starting of series"))
+b=int(input("Enter ending of series"))
+c=int(input("Enter stepcount"))
+While(a<=b)
+   Print(a)
+   a=a+c
